@@ -1,0 +1,124 @@
+body {
+    /* background:rgb(14, 34, 77) !important; */
+    margin:0;
+    padding:0;
+  }
+
+  h1{
+    color: #32bda4;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  h2{
+    color: #32bda4;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h3{
+    color: #32bda4;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+  
+  p{
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .section-title h2 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 6px;
+      color: #000;
+      letter-spacing: 0.3px;
+      padding: 0;
+  }
+  .section-title::after {
+      content: "";
+      height: 3px;
+      background: #fff;
+      width: 80px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  /****************/
+  /*	 BX-SLIDER 	*/
+  /****************/
+  section.client {
+    overflow: hidden;
+  }
+  section.client .section-title {
+      margin-bottom: 6em;
+  }
+  .bx-controls {
+      position: relative;
+  }
+  .bx-wrapper {
+    -moz-box-shadow: 0 0 5px rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 5px rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    border: 5px solid #fff;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .bx-wrapper .bx-pager {
+      text-align: center;
+      padding-top: 30px;
+      display: none;
+  }
+  .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+      display: inline-block;
+      *zoom: 1;
+      *display: inline;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+      background: #666;
+      text-indent: -9999px;
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      outline: 0;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+  }
+  
+  /* main */
+  #videoBG {
+    position:absolute;
+    top: 142px;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .poster{
+    margin-bottom: 130px;
+  }
+  .poster .content{
+    position: relative;
+    z-index: 1;
+  }
+  .info{
+    background: #5f9ea066;;
+  }
+  .info img{
+    width: 400px;
+  }
+  .card-info{
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background: rgb(95 158 160 / 30%);
+    backdrop-filter: blur(5px);
+  }
